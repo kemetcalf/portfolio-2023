@@ -1,20 +1,18 @@
+import "boxicons";
+
 export default function BottomNav() {
 	return (
 		<div className="btm-nav">
 			<button className="text-accent">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					className="h-5 w-5"
-					fill="none"
+					width="24"
+					height="24"
 					viewBox="0 0 24 24"
-					stroke="currentColor"
+					style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"
 				>
-					<path
-						strokeLinecap="round"
-						strokeLinejoin="round"
-						stroke-width="2"
-						d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-					/>
+					<path d="m12.223 11.641-.223.22-.224-.22a2.224 2.224 0 0 0-3.125 0 2.13 2.13 0 0 0 0 3.07L12 18l3.349-3.289a2.13 2.13 0 0 0 0-3.07 2.225 2.225 0 0 0-3.126 0z"></path>
+					<path d="m21.707 11.293-9-9a.999.999 0 0 0-1.414 0l-9 9A1 1 0 0 0 3 13h1v7c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-7h1a1 1 0 0 0 .707-1.707zM18.001 20H6v-9.585l6-6 6 6V15l.001 5z"></path>
 				</svg>
 			</button>
 			<button className="text-accent active">
