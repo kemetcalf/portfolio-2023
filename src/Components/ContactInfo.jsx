@@ -7,7 +7,7 @@ export default function ContactInfo() {
 					<div className="card w-96 bg-primary text-primary-content">
 						<div className="card-body">
 							<h2 className="card-title justify-center">Kathleen Metcalf</h2>
-							<p>contact info goes here</p>
+							<p>kat@katmetcalf.com</p>
 							<div className="card-actions justify-center">
 								<button className="btn btn-circle">
 									<a

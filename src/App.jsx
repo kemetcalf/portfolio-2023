@@ -7,12 +7,12 @@ import AboutMe from "./Components/AboutMe";
 export default function App() {
 	return (
 		<div>
-			<Hero id="hero" />
+			<Hero />
 			<AboutMe />
-			<ProjectGallery id="projectgallery" />
+			<ProjectGallery />
 
-			<ContactInfo id="contactinfo" />
-			<BottomNav id="navbar" />
+			<ContactInfo />
+			<BottomNav />
 		</div>
 	);
 }
