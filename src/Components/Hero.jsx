@@ -18,7 +18,7 @@ export default function Hero() {
 					<h2 className="text-xl text-accent text-center font-bold pb-4 invisible lg:visible">
 						Looks like you found yourself a...
 					</h2>
-					<h1 className="text-8xl text-accent font-bold mb-6 "> Code Kat!</h1>
+					<h1 className="text-8xl text-accent font-bold mb-6"> Code Kat!</h1>
 					<p className="py-6 ">
 						Welcome to my webdev portfolio! Maybe you're thinking to yourself,
 						"kat's can't code!" Well how did I make this website then, eh? Feel
