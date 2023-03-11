@@ -12,10 +12,14 @@ export default function ProjectCard(props) {
 					<p className="text-neutral-content">{description}</p>
 					<div className="card-actions justify-end">
 						<button className="btn btn-primary">
-							<a href={live}>View Live</a>
+							<a href={live} target="_blank" rel="noreferrer">
+								View Live
+							</a>
 						</button>
 						<button className="btn btn-secondary">
-							<a href={repo}>View Repo</a>
+							<a href={repo} target="_blank" rel="noreferrer">
+								View Repo
+							</a>
 						</button>
 					</div>
 				</div>

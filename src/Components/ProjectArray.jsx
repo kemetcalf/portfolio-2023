@@ -1,16 +1,18 @@
 import green_code from "../Assets/green_code.jpg";
 import bright_code from "../Assets/bright_code.jpg";
 import random_code from "../Assets/random_code.jpg";
+import Wipit_form_view from "../Assets/Wipit_form_view.jpg";
 
 const ProjectArray = [
 	{
 		id: "0",
-		image: green_code,
-		title: "Green Code",
-		tech: "matrix",
-		description: "the virtual machine in which we all run like mice in a wheel",
-		live: "",
-		repo: "",
+		image: Wipit_form_view,
+		title: "WIPit!",
+		tech: "React, Javascript, HTML, ReactRouterDOM, Bootstrap, SaSS",
+		description:
+			"A craft project tracking app providing one convenient place to keep all your craft project planning, reference imagery, task lists, pattern links, and digital design and style boards. In the future, I hope to include social and targeted advertising aspects, showing directly relevant products in the user's region based on material list and craft medium tag words",
+		live: "https://wipit-first-version.netlify.app/",
+		repo: "https://github.com/kemetcalf/craft-app",
 	},
 	{
 		id: "1",
