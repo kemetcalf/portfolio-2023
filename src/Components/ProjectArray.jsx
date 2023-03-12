@@ -1,6 +1,6 @@
-import green_code from "../Assets/green_code.jpg";
-import bright_code from "../Assets/bright_code.jpg";
-import random_code from "../Assets/random_code.jpg";
+// import green_code from "../Assets/green_code.jpg";
+// import bright_code from "../Assets/bright_code.jpg";
+// import random_code from "../Assets/random_code.jpg";
 import Wipit_form_view from "../Assets/Wipit_form_view.jpg";
 
 const ProjectArray = [
@@ -14,24 +14,24 @@ const ProjectArray = [
 		live: "https://wipit-first-version.netlify.app/",
 		repo: "https://github.com/kemetcalf/craft-app",
 	},
-	{
-		id: "1",
-		image: bright_code,
-		title: "Happy Game",
-		tech: "Kaboom",
-		description: "much color, such game, much wow",
-		live: "",
-		repo: "",
-	},
-	{
-		id: "2",
-		image: random_code,
-		title: "Beep_Boop",
-		tech: "Python",
-		description: "beep boop meep moop error: exit code 1",
-		live: "",
-		repo: "",
-	},
+	// {
+	// 	id: "1",
+	// 	image: bright_code,
+	// 	title: "Happy Game",
+	// 	tech: "Kaboom",
+	// 	description: "much color, such game, much wow",
+	// 	live: "",
+	// 	repo: "",
+	// },
+	// {
+	// 	id: "2",
+	// 	image: random_code,
+	// 	title: "Beep_Boop",
+	// 	tech: "Python",
+	// 	description: "beep boop meep moop error: exit code 1",
+	// 	live: "",
+	// 	repo: "",
+	// },
 ];
 
 export default ProjectArray;
