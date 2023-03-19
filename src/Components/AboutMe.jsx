@@ -16,12 +16,12 @@ export default function AboutMe() {
 						<p className="py-6">
 							My background is in e-commerce and customer service, but my
 							training in design and curiosity about the possibilities of
-							digital products has led me to pursue a new course. <br />
+							digital products have led me to pursue a new course. <br />
 							<br />
 							Though I'm new to the tech industry professionally, I've been
 							building my front-end web dev skills since January 2022. Mostly
 							self-taught through docs and tutorials, I've also reached out to
-							friends in the community for help and filled in gaps with online
+							friends in the community and filled in knowledge gaps with online
 							courses. Technologies I'm comfortable with include React,
 							Javascript, Git CLI, Github, Netlify, CSS and component libraries,
 							3rd party packages, and HTML/CSS. <br />
@@ -36,7 +36,7 @@ export default function AboutMe() {
 							opportunities in front-end web development and can't wait to see
 							where this new journey takes me!
 						</p>
-						<button className="btn btn-primary m-4 active" href="/contactinfo">
+						<button className="btn btn-primary m-2 active" href="/contactinfo">
 							<AnchorLink
 								href="#contactinfo"
 								className="tooltip tooltip-left"
@@ -45,7 +45,7 @@ export default function AboutMe() {
 								Get in touch
 							</AnchorLink>
 						</button>
-						<button className="btn btn-secondary m-4">
+						<button className="btn btn-secondary m-2">
 							<AnchorLink
 								href="#projectgallery"
 								className="tooltip tooltip-left"

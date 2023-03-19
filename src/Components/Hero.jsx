@@ -4,7 +4,7 @@ export default function Hero() {
 	return (
 		<div id="hero" className="hero min-h-screen bg-base-200">
 			<div className="hero-content flex-col lg:flex-row-reverse">
-				<div className="m-8">
+				<div className="">
 					<h2 className="text-xl text-accent text-center font-bold pb-4 lg:hidden">
 						Looks like you found yourself a...
 					</h2>
@@ -18,7 +18,7 @@ export default function Hero() {
 					<h2 className="text-xl text-accent text-center font-bold pb-4 invisible lg:visible">
 						Looks like you found yourself a...
 					</h2>
-					<h1 className="text-8xl text-accent font-bold mb-6"> Code Kat!</h1>
+					<h1 className="text-8xl text-accent font-bold mb-1"> Code Kat!</h1>
 					<p className="py-6 ">
 						Welcome to my webdev portfolio! Maybe you're thinking to yourself,
 						"kat's can't code!" Well how did I make this website then, eh? Feel
