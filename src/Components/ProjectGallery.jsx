@@ -19,5 +19,9 @@ export default function ProjectGallery() {
 			</li>
 		);
 	});
-	return <div id="projectgallery">{renderProjectList}</div>;
+	return (
+		<div id="projectgallery">
+			<ol className="list-none list-outside">{renderProjectList}</ol>
+		</div>
+	);
 }

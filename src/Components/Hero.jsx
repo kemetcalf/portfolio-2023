@@ -11,14 +11,14 @@ export default function Hero() {
 					<img
 						src={hero_cat}
 						alt="grey cat sitting next to a vase of colorful daisies"
-						className="max-w-sm mask mask-hexagon-2 rounded-lg shadow-2xl"
+						className="max-w-sm mask mask-hexagon-2 rounded-lg shadow-xl"
 					/>
 				</div>
 				<div className="max-w-lg text-center lg:text-right ">
 					<h2 className="text-xl text-accent text-center font-bold pb-4 invisible lg:visible">
 						Looks like you found yourself a...
 					</h2>
-					<h1 className="text-8xl text-accent font-bold mb-1"> Code Kat!</h1>
+					<h1 className="text-8xl text-accent font-bold"> Code Kat!</h1>
 					<p className="py-6 ">
 						Welcome to my webdev portfolio! Maybe you're thinking to yourself,
 						"kat's can't code!" Well how did I make this website then, eh? Feel
