@@ -7,38 +7,22 @@ export default function BottomNav() {
 		<div id="navbar" className="btm-nav btm-nav-lg md:btm-nav-sm">
 			<button className="text-secondary active">
 				{/* <i class="bx bx-home-heart"></i> */}
-				<AnchorLink
-					href="#hero"
-					className="tooltip tooltip-left"
-					data-tip="Home"
-				>
+				<AnchorLink href="#hero">
 					<i className="bx bxs-home-heart bx-tada-hover bx-md" />
 				</AnchorLink>
 			</button>
 			<button className="text-secondary active">
-				<AnchorLink
-					href="#aboutme"
-					className="tooltip tooltip-left"
-					data-tip="About Me"
-				>
+				<AnchorLink href="#aboutme">
 					<i className="bx bxs-cat bx-tada-hover bx-md"></i>
 				</AnchorLink>
 			</button>
 			<button className="text-secondary active">
-				<AnchorLink
-					href="#projectgallery"
-					className="tooltip tooltip-left"
-					data-tip="Project Gallery"
-				>
+				<AnchorLink href="#projectgallery">
 					<i className="bx bx-code-block bx-tada-hover bx-md"></i>
 				</AnchorLink>
 			</button>
 			<button className="text-secondary active">
-				<AnchorLink
-					href="#contactinfo"
-					className="tooltip tooltip-left"
-					data-tip="Contact Info"
-				>
+				<AnchorLink href="#contactinfo">
 					<i className="bx bxs-envelope bx-tada-hover bx-md"></i>
 				</AnchorLink>
 			</button>
