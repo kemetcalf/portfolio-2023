@@ -3,7 +3,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function AboutMe() {
 	return (
-		<div id="aboutme" className="m-12">
+		<div id="aboutme" className="">
 			<div className="hero min-h-max bg-base-300  rounded-lg">
 				<div className="hero-content flex-col lg:flex-row">
 					<img

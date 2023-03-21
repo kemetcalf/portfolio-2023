@@ -11,7 +11,7 @@ export default function Hero() {
 					<img
 						src={hero_cat}
 						alt="grey cat sitting next to a vase of colorful daisies"
-						className="max-w-sm mask mask-hexagon-2 rounded-lg shadow-xl"
+						className="max-w-sm md:max-w-lg mask mask-hexagon-2 rounded-lg shadow-xl"
 					/>
 				</div>
 				<div className="max-w-lg text-center lg:text-right ">
@@ -21,16 +21,12 @@ export default function Hero() {
 					<h1 className="text-8xl text-accent font-bold"> Code Kat!</h1>
 					<p className="py-6 ">
 						Welcome to my webdev portfolio! Maybe you're thinking to yourself,
-						"kat's can't code!" Well how did I make this website then, eh? Feel
+						"kats can't code!" Well how did I make this website then, eh? Feel
 						free to explore and get in touch if you think your team could
 						benefit from some feline influence
 					</p>
 					<button className="btn btn-primary">
-						<AnchorLink
-							href="#projectgallery"
-							className="tooltip tooltip-left"
-							data-tip="Project Gallery"
-						>
+						<AnchorLink href="#projectgallery">
 							Check out my projects
 						</AnchorLink>
 					</button>
