@@ -5,15 +5,17 @@ export default function AboutMe() {
 	return (
 		<div id="aboutme" className="min-w-full">
 			<div className="hero bg-base-300 rounded-lg">
-				<div className="hero-content flex-col lg:flex-row">
-					<img
-						src={cool_cat}
-						alt="grey cat wearing orange reflective sunnies"
-						className="min-w-full mask mask-squircle rounded-lg shadow-2xl"
-					/>
-					<div>
+				<div className="hero-content flex flex-col lg:flex-row">
+					<div className="container">
+						<img
+							src={cool_cat}
+							alt="grey cat wearing orange reflective sunnies"
+							className="min-w-full mask mask-squircle rounded-lg shadow-2xl"
+						/>
+					</div>
+					<div className="container">
 						<h1 className="text-5xl font-bold">Hello, I'm Kat! </h1>
-						<p className="py-6">
+						<p className="py-3 text-start">
 							My background is in e-commerce and customer service, but my
 							training in design and curiosity about the possibilities of
 							digital products have led me to pursue a new course. <br />
