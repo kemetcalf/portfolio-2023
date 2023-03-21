@@ -3,8 +3,12 @@ export default function ProjectCard(props) {
 	return (
 		<div id={id} className="p-8">
 			<div className="card lg:card-side bg-base-300 shadow-xl">
-				<figure className="m-4">
-					<img src={image} alt="Album" className="min-h-full w-full" />
+				<figure>
+					<img
+						src={image}
+						alt="App form screenshot"
+						className="h-full object-left-top"
+					/>
 				</figure>
 				<div className="card-body">
 					<h2 className="card-title">{title}</h2>
