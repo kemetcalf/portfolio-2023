@@ -3,13 +3,13 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function AboutMe() {
 	return (
-		<div id="aboutme" className="">
-			<div className="hero min-h-max bg-base-300  rounded-lg">
+		<div id="aboutme" className="min-w-full">
+			<div className="hero bg-base-300 rounded-lg">
 				<div className="hero-content flex-col lg:flex-row">
 					<img
 						src={cool_cat}
 						alt="grey cat wearing orange reflective sunnies"
-						className="max-w-sm mask mask-squircle rounded-lg shadow-2xl"
+						className="min-w-full mask mask-squircle rounded-lg shadow-2xl"
 					/>
 					<div>
 						<h1 className="text-5xl font-bold">Hello, I'm Kat! </h1>
@@ -37,20 +37,10 @@ export default function AboutMe() {
 							where this new journey takes me!
 						</p>
 						<button className="btn btn-primary m-2 active" href="/contactinfo">
-							<AnchorLink
-								href="#contactinfo"
-								className="tooltip tooltip-left"
-								data-tip="Contact Info"
-							>
-								Get in touch
-							</AnchorLink>
+							<AnchorLink href="#contactinfo">Get in touch</AnchorLink>
 						</button>
 						<button className="btn btn-secondary m-2">
-							<AnchorLink
-								href="#projectgallery"
-								className="tooltip tooltip-left"
-								data-tip="Project Gallery"
-							>
+							<AnchorLink href="#projectgallery">
 								Check out my projects
 							</AnchorLink>
 						</button>
