@@ -4,7 +4,7 @@ import "boxicons";
 
 export default function BottomNav() {
 	return (
-		<div id="navbar" className="btm-nav btm-nav-lg md:btm-nav-sm">
+		<div id="navbar" className="btm-nav btm-nav-md md:btm-nav-sm">
 			<button className="text-secondary active">
 				{/* <i class="bx bx-home-heart"></i> */}
 				<AnchorLink href="#hero">

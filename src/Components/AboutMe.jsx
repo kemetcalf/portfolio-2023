@@ -5,17 +5,17 @@ export default function AboutMe() {
 	return (
 		<div id="aboutme" className="min-w-full">
 			<div className="hero bg-base-300 rounded-lg">
-				<div className="hero-content flex flex-col lg:flex-row">
-					<div className="container">
+				<div className="hero-content flex flex-col justify-center lg:flex-row lg:justify-around">
+					<div className="basis-1/4 lg:basis-2/5">
 						<img
 							src={cool_cat}
 							alt="grey cat wearing orange reflective sunnies"
-							className="min-w-full mask mask-squircle rounded-lg shadow-2xl"
+							className="mask mask-squircle rounded-lg shadow-2xl"
 						/>
 					</div>
-					<div className="container">
+					<div className="basis-3/5">
 						<h1 className="text-5xl font-bold">Hello, I'm Kat! </h1>
-						<p className="py-3 text-start">
+						<p className="py-2 text-start">
 							My background is in e-commerce and customer service, but my
 							training in design and curiosity about the possibilities of
 							digital products have led me to pursue a new course. <br />
@@ -38,14 +38,19 @@ export default function AboutMe() {
 							opportunities in front-end web development and can't wait to see
 							where this new journey takes me!
 						</p>
-						<button className="btn btn-primary m-2 active" href="/contactinfo">
-							<AnchorLink href="#contactinfo">Get in touch</AnchorLink>
-						</button>
-						<button className="btn btn-secondary m-2">
-							<AnchorLink href="#projectgallery">
-								Check out my projects
-							</AnchorLink>
-						</button>
+						<div className="container ">
+							<button
+								className="btn btn-primary m-2 active"
+								href="/contactinfo"
+							>
+								<AnchorLink href="#contactinfo">Get in touch</AnchorLink>
+							</button>
+							<button className="btn btn-secondary m-2">
+								<AnchorLink href="#projectgallery">
+									Check out my projects
+								</AnchorLink>
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
