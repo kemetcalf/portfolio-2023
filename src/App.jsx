@@ -3,6 +3,7 @@ import ProjectGallery from "./Components/ProjectGallery";
 import BottomNav from "./Components/BottomNav";
 import ContactInfo from "./Components/ContactInfo";
 import AboutMe from "./Components/AboutMe";
+import Footer from "./Components/Footer";
 
 export default function App() {
 	return (
@@ -12,6 +13,7 @@ export default function App() {
 			<ProjectGallery />
 
 			<ContactInfo />
+			<Footer />
 			<BottomNav />
 		</div>
 	);

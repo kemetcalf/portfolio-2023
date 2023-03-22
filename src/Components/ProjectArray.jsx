@@ -10,7 +10,7 @@ const ProjectArray = [
 		title: "WIPit!",
 		tech: "React, Javascript, HTML, ReactRouterDOM, Bootstrap, SaSS",
 		description:
-			"A craft project tracking app providing one convenient place to keep all your craft project planning, reference imagery, task lists, pattern links, and digital design and style boards. In the future, I hope to include social and targeted advertising aspects, showing directly relevant products in the user's region based on material list and craft medium tag words",
+			"A craft project tracking app providing one convenient place to keep your project timeline, reference imagery, task lists, pattern links, design plans, and style boards. In the future, I hope to include social and targeted advertising aspects, showing directly relevant products in the user's region based on material list and craft medium tag words. Realistically, the basic version will be readily adapted to any project-based task or hobby genre.",
 		live: "https://wipit-first-version.netlify.app/",
 		repo: "https://github.com/kemetcalf/craft-app",
 	},
