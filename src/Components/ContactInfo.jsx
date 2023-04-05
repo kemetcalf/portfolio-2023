@@ -18,7 +18,7 @@ export default function ContactInfo() {
 										<i className="bx bxl-github bx-tada-hover bx-md"></i>
 									</a>
 								</button>
-								<button className="btn btn-md btn-circle">
+								{/* <button className="btn btn-md btn-circle">
 									<a
 										href="https://app.netlify.com/teams/kemetcalf/overview"
 										target="_blank"
@@ -26,7 +26,7 @@ export default function ContactInfo() {
 									>
 										<i className="bx bxl-netlify bx-tada-hover bx-md"></i>
 									</a>
-								</button>
+								</button> */}
 								<button className="btn btn-circle">
 									<a
 										href="https://www.linkedin.com/in/kathleen-metcalf-07b875187"
