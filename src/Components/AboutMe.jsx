@@ -1,4 +1,4 @@
-import cool_cat from "../Assets/cool_cat.jpg";
+import old_headshot from "../Assets/old_headshot.jpeg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function AboutMe() {
@@ -8,7 +8,7 @@ export default function AboutMe() {
 				<div className="hero-content flex flex-col justify-center lg:flex-row lg:justify-around">
 					<div className="basis-1/4 lg:basis-2/5">
 						<img
-							src={cool_cat}
+							src={old_headshot}
 							alt="grey cat wearing orange reflective sunnies"
 							className="mask mask-squircle rounded-lg shadow-2xl"
 						/>
