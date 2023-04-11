@@ -1,5 +1,6 @@
 import Wipit_form_view from "../Assets/Wipit_form_view.jpg";
-import ContactManagerSS from "../Assets/ContactManagerSS.jpg";
+import contact_mgr1 from "../Assets/contact_mgr1.jpg";
+import movie_browser2 from "../Assets/movie_browser2.jpg";
 
 const ProjectArray = [
 	{
@@ -14,7 +15,7 @@ const ProjectArray = [
 	},
 	{
 		id: "1",
-		image: ContactManagerSS,
+		image: contact_mgr1,
 		title: "Simple CRUD Contact Manager with Local Storage",
 		tech: "React, Javascript, HTML, ReactRouterDOM, Semantic UI, Yarn Classic",
 		description:
@@ -22,15 +23,16 @@ const ProjectArray = [
 		live: "https://contact-crud-app-2020.netlify.app/",
 		repo: "https://github.com/kemetcalf/contact-manager",
 	},
-	// {
-	// 	id: "2",
-	// 	image: random_code,
-	// 	title: "Beep_Boop",
-	// 	tech: "Python",
-	// 	description: "beep boop meep moop error: exit code 1",
-	// 	live: "",
-	// 	repo: "",
-	// },
+	{
+		id: "2",
+		image: movie_browser2,
+		title: "Movie Title Browser",
+		tech: "React, Javascript, ReactRouterDOM, HTML, Yarn Classic",
+		description:
+			"A movie title search application populated with data from themoviedb.org's API that provides further movie info upon click in to the detail view.",
+		live: "https://movie-gelato-07027a.netlify.app/",
+		repo: "https://github.com/kemetcalf/Udemy/tree/main/React_201/Movie_Browser",
+	},
 ];
 
 export default ProjectArray;
