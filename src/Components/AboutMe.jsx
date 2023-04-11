@@ -14,7 +14,7 @@ export default function AboutMe() {
 						/>
 					</div>
 					<div className="basis-3/5">
-						<h1 className="text-5xl font-bold">Hello, I'm Kat! </h1>
+						<h1 className="text-5xl font-bold">Hello, I'm (actually) Kat!</h1>
 						<p className="py-2 text-start">
 							My background is in e-commerce and customer service, but my
 							training in design and curiosity about the possibilities of

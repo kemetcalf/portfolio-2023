@@ -9,10 +9,15 @@ export default function Footer() {
 					<p>Designed and Built by Kathleen Metcalf</p>
 					<i class="bx bx-copyright bx-sm"></i>
 					<p>Copyright 2023 - All right reserved</p>
-					{/* <p>
-						Designed and Built by Kathleen Metcalf - Copyright © 2023 - All
-						right reserved
-					</p> */}
+					<button className="btn btn-secondary">
+						<a
+							href="https://github.com/kemetcalf/portfolio-2023"
+							target="_blank"
+							rel="noreferrer"
+						>
+							View Site Repo
+						</a>
+					</button>
 				</div>
 				<div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
 					{/* <a>
