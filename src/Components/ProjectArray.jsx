@@ -1,11 +1,11 @@
-import Wipit_form_view from "../Assets/Wipit_form_view.jpg";
+import wipit_formview2 from "../Assets/wipit_formview2.jpg";
 import contact_mgr1 from "../Assets/contact_mgr1.jpg";
 import movie_browser2 from "../Assets/movie_browser2.jpg";
 
 const ProjectArray = [
 	{
 		id: "0",
-		image: Wipit_form_view,
+		image: wipit_formview2,
 		title: "WIPit!",
 		tech: "React, Javascript, HTML, ReactRouterDOM, Bootstrap, SaSS, Yarn Classic",
 		description:
