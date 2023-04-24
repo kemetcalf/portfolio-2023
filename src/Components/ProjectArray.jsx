@@ -1,6 +1,7 @@
 import wipit_formview2 from "../Assets/wipit_formview2.jpg";
 import contact_mgr1 from "../Assets/contact_mgr1.jpg";
 import movie_browser2 from "../Assets/movie_browser2.jpg";
+import swapi_genview from "../Assets/swapi_genview.jpg";
 
 const ProjectArray = [
 	{
@@ -32,6 +33,16 @@ const ProjectArray = [
 			"A movie title search application populated with data from themoviedb.org's API that provides further movie info upon click in to the detail view.",
 		live: "https://movie-gelato-07027a.netlify.app/",
 		repo: "https://github.com/kemetcalf/Udemy/tree/main/React_201/Movie_Browser",
+	},
+	{
+		id: "3",
+		image: swapi_genview,
+		title: "StarWars Character Generator",
+		tech: "React, Javascript, ReactQuery, SWAPI REStful API, HTML, CSS, TailwindCSS, Yarn Classic",
+		description:
+			"A Star Wars character generator using ReactQuery to fetch and display basic info on a randomized character from a REST API, character specific fork of the popular SWAPI (Star Wars API).",
+		live: "https://preeminent-swapi-pony-745218.netlify.app/",
+		repo: "https://github.com/kemetcalf/swapi-gen",
 	},
 ];
 
