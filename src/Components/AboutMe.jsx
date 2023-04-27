@@ -9,7 +9,7 @@ export default function AboutMe() {
 					<div className="basis-1/4 lg:basis-2/5">
 						<img
 							src={old_headshot}
-							alt="grey cat wearing orange reflective sunnies"
+							alt="a headshot of a pale, smiling woman in her mid-20's with short brown hair"
 							className="mask mask-squircle rounded-lg shadow-2xl"
 						/>
 					</div>
@@ -18,13 +18,13 @@ export default function AboutMe() {
 						<p className="py-2 text-start">
 							My background is in e-commerce and customer service, but my
 							training in design and curiosity about the possibilities of
-							digital products have led me to pursue a new course. <br />
+							digital products has led me to pursue a new course. <br />
 							<br />
 							Though I'm new to the tech industry professionally, I've been
 							building my front-end web dev skills since January 2022. Mostly
-							self-taught through docs and tutorials, I've also reached out to
-							friends in the community and filled in knowledge gaps with online
-							courses. Technologies I'm comfortable with include React,
+							self-studied through docs, tutorials, and online courses, I also
+							collaborate with friends in the community to continuously build my
+							knowledge base. Technologies I'm comfortable with include React,
 							Javascript, Git CLI, Github, Netlify, CSS and component libraries,
 							3rd party packages, and HTML/CSS. <br />
 							<br />
@@ -36,7 +36,7 @@ export default function AboutMe() {
 							<br /> If you're interested in connecting to learn more about my
 							skills and experience, please reach out. I'm looking to explore
 							opportunities in front-end web development and can't wait to see
-							where this new journey takes me!
+							where this journey takes me!
 						</p>
 						<div className="container ">
 							<button
