@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard";
 import ProjectArray from "./ProjectArray";
 
 export default function ProjectGallery() {
-	console.log(ProjectArray);
+	// console.log(ProjectArray);
 	const renderProjectList = ProjectArray.map((project) => {
 		const { id, image, title, tech, description, live, repo } = project;
 		return (
