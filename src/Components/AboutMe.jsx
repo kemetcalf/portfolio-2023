@@ -24,19 +24,24 @@ export default function AboutMe() {
 							building my front-end web dev skills since January 2022. Mostly
 							self-studied through docs, tutorials, and online courses, I also
 							collaborate with friends in the community to continuously build my
-							knowledge base. Technologies I'm comfortable with include React,
-							Javascript, Git CLI, Github, Netlify, CSS and component libraries,
-							3rd party packages, and HTML/CSS. <br />
+							knowledge base.
+							<br />
+							Technologies I'm comfortable with include React, Javascript, Git
+							CLI, Github, Netlify, assorted CSS and component libraries, 3rd
+							party packages, and HTML/CSS. I have limited experience with
+							Python/Django, MySQL, and Node.js. Technologies I'm growing into
+							include Google Cloud Platform, Firebase SDK, ReactQuery, and more
+							advanced React and Git concepts.
+							<br />
 							<br />
 							Outside of work, I'm also a creator, renovator, and upcycler. I'm
 							excited to apply those creative problem-solving skills and eye for
-							aesthetics to my work as a front-end dev. I enjoy delivering
-							reliable work that can be used and valued, contributing to the
-							quality of people's lives. <br />
+							aesthetics to my work as a junior dev. I enjoy delivering reliable
+							work, contributing to the quality of people's projects and lives.{" "}
+							<br />
 							<br /> If you're interested in connecting to learn more about my
 							skills and experience, please reach out. I'm looking to explore
-							opportunities in front-end web development and can't wait to see
-							where this journey takes me!
+							new opportunities in web development and continue to grow!
 						</p>
 						<div className="container ">
 							<button
